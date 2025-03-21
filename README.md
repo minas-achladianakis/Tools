@@ -1,26 +1,31 @@
 # 🛠️ Tools & Utilities
 
-This folder contains scripts and small utilities that support academic and project work. These are designed to be practical, self-contained, and easy to reuse.
-
-
-## 📄 Protect Your Work
-
-**`protect_your_work.py`** is a utility that converts a PDF into images and reassembles them into a flattened PDF. This helps protect your work by preventing easy text extraction, copy-pasting, or direct editing — useful for submissions, limited-distribution documents, or academic sharing.
-
-### 🔍 How It Works
-- Takes a PDF input file (e.g., `My_Work'+ input_name+ '.pdf`) and converts each page to a high-resolution image.
-- Temporarily saves these images as `image_1.jpg`, `image_2.jpg`, etc., in the **same folder where the script is run**.
-- Reassemble's the images into a new PDF (e.g., `Protected'+ input_name+ '.pdf`) in the same folder.
-
-### ⚠️ Usage Notes
-- ✅ Make sure your input PDF file is in the **same folder** as the script.
-- 📛 The script uses the **PDF filename format** `My_Work<task_number>.pdf` — update this if needed.
-- 📂 All generated image files will be saved in the working directory.
-- 🧹 Temporary image files **are not automatically deleted**, so you may want to remove them afterward.
-
-### 💡 Example Use Case
-> You want to share a problem set or partial solution but don’t want the content to be easily copied or altered. This script generates a clean, read-only version.
+This repository contains scripts designed to support academic, technical, and project-related workflows.  
+Each subfolder focuses on a specific category, such as document manipulation or data cleaning, and contains practical tools for repetitive or sensitive tasks.
 
 ---
 
-More tools will be added here over time.
+## 🗂️ Tool Categories
+
+### 📄 [Document Manipulation](./document-manipulation/)
+Scripts for protecting, formatting, and transforming documents — particularly PDFs — for secure and structured academic or project delivery.
+
+> Includes tools like:
+> - 🛡️ `protect_your_work.py`: Converts a PDF into flattened images to prevent copying or editing.
+
+---
+
+## 🔧 About the Tools
+
+These scripts are:
+- ✅ Lightweight and modular  
+- 💡 Useful for academic submissions, automation, and sharing  
+- 🔓 Open-source and licensed under MIT (unless stated otherwise)
+
+Each folder contains its own `README.md` with usage instructions and examples.
+
+---
+
+📬 **Suggestions or feedback?**  
+Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/achladianakisminas/) or email: **achladianakisminas@gmail.com**
+
